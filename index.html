@@ -1,44 +1,361 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>薛景盘的主页</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="shortcut icon" href="assets/css/images/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+﻿<!DOCTYPE html>
+<html lang="zxx">
 
-				<!-- Header -->
-					<header id="header">
-						<p>薛景盘</p>
-						<p>须知少时凌云志，曾许人间第一流</p>
-						<nav>
-							<ul>
-								<li><a href="https://github.com/XueJingpan" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://weibo.com/u/5233977174" class="icon brands fa-weibo"><span class="label">weibo</span></a></li>
-								<li><a href="https://www.zhihu.com/people/jiang-jiang-31-44-59" class="icon brands fa-zhihu"><span class="label">zhihu</span></a></li>
-								<li><a href="mailto:1298231208@qq.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--icon-->
+  <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- locomotive scroll css -->
+  <link rel="stylesheet" href="css/plugins/locomotive-scroll.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- trueman dark mode css <link rel="stylesheet" href="css/style-dark.css">-->
+  <!-- trueman light mode css -->
+  <link rel="stylesheet" href="css/style-light.css" id="trm-switch-style">
+  <!-- page name -->
+  <title>薛景盘的主页</title>
+</head>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; 2021 &nbsp;XueJingpan&nbsp; All Rights Reserved</span>
-					</footer>
+<body>
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+  <!-- app wrapper -->
+  <div class="trm-app-frame">
+
+    <!-- page preloader -->
+    <div class="trm-preloader">
+      <div class="trm-holder">
+        <div class="preloader">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- page preloader end -->
+
+    <!-- change mode preloader -->
+    <div class="trm-mode-swich-animation-frame">
+      <div class="trm-mode-swich-animation">
+        <i class="far fa-sun"></i>
+        <div class="trm-horizon"></div>
+        <i class="far fa-moon"></i>
+      </div>
+    </div>
+    <!-- change mode preloader end -->
+
+    <!-- scroll container -->
+    <div id="trm-dynamic-content" class="trm-swup-animation">
+      <div id="trm-scroll-container" class="trm-scroll-container" data-scroll-container style="opacity: 0">
+        <div data-scroll-section id="content" class="trm-scroll-section">
+
+          <!-- top bar -->
+          <div class="trm-top-bar" data-scroll data-scroll-sticky data-scroll-target="#content" data-scroll-offset="-10">
+            <div class="container">
+              <div class="trm-left-side">
+                <!-- logo -->
+                <a href="index.html" class="trm-logo-frame trm-anima-link">
+                  <div class="trm-logo-text">薛<span>景盘</span></div>
+                  <!--<img src="img/logo.svg" alt="Trueman"><== image logo-->
+                </a>
+                <!-- logo end -->
+              </div>
+              <div class="trm-right-side">
+
+                <!-- menu -->
+                <div class="trm-menu">
+                  <nav>
+                    <ul>
+                      <li>
+                        <a href="index.html">首页</a>
+                      </li>
+
+                      <li>
+                        <a href="#">BunnyAI</a>
+                      </li>
+
+                      <li>
+                        <a href="#">博客</a>
+                      </li>
+                      
+                      <li class="menu-item-has-children">
+                        <a href="#">笔记</a>
+                        <ul>
+                          <li><a href="#">前端</a></li>
+                          <li><a href="#">后端</a></li>
+                          <li><a href="#">算法</a></li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="./old/index.html">旧版</a>
+                      </li>
+                      
+                    </ul>
+                  </nav>
+                </div>
+                <!-- menu end -->
+
+                <!-- mode switcher place -->
+                <div class="trm-mode-switcher-place"></div>
+                <!-- mode switcher place end -->
+
+              </div>
+              <div class="trm-menu-btn"><span></span></div>
+            </div>
+          </div>
+          <!-- top bar end -->
+
+          <div class="trm-content-start">
+
+            <!-- banner -->
+            <div class="trm-banner" data-scroll data-scroll-direction="vertical" data-scroll-speed="-1">
+
+              <!-- banner cover -->
+              <img src="img/banner.jpg" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
+              <!-- banner cover end -->
+
+              <!-- banner content -->
+              <div class="trm-banner-content trm-overlay">
+
+                <div class="container" data-scroll data-scroll-direction="vertical" data-scroll-speed="1">
+                  <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-8">
+                      <!-- scroll hint -->
+                      <a href="#about-triger" data-scroll-to="#about-triger" data-scroll-offset="-130" class="trm-scroll-hint-frame">
+                        <div class="trm-scroll-hint"></div>
+                      </a>
+                      <!-- scroll hint end -->
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- banner content end -->
+
+            </div>
+            <!-- banner end -->
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+
+                  <!-- main card -->
+                  <div class="trm-main-card-frame trm-sidebar">
+                    <div class="trm-main-card" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target="#content" data-scroll-offset="60">
+
+                      <!-- card header -->
+                      <div class="trm-mc-header">
+                        <div class="trm-avatar-frame trm-mb-20">
+                          <img class="trm-avatar" src="img/profile.jpg" alt="Avatar">
+                          <div class="trm-dot"></div>
+                        </div>
+                        <h5 class="trm-name trm-mb-15">薛景盘</h5>
+                        <div class="trm-label">I`m
+                          <span class="trm-typed-text">
+                            <!-- Words for rotation: js/main.js line 34 -->
+                          </span>
+                        </div>
+                      </div>
+                      <!-- card header end -->
+
+                      <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+
+                      <!-- info -->
+                      <ul class="trm-table trm-mb-20">
+                        <!-- country -->
+                        <li>
+                          <div class="trm-label">国家</div>
+                          <div class="trm-label trm-label-light">中国</div>
+                        </li>
+                        <!-- city -->
+                        <li>
+                          <div class="trm-label">城市</div>
+                          <div class="trm-label trm-label-light">上海</div>
+                        </li>
+                        <!-- age -->
+                        <li>
+                          <div class="trm-label">年龄</div>
+                          <div class="trm-label trm-label-light">25</div>
+                        </li>
+                      </ul>
+                      <!-- info end -->
+
+                      <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+
+                       <!-- sidebar social -->
+                       <div class="trm-social">
+                        <a href="https://github.com/XueJingpan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.zhihu.com/people/jiang-jiang-31-44-59" target="_blank"><i class="fab fa-zhihu"></i></a>
+                        <a href="https://weibo.com/u/5233977174" target="_blank"><i class="fab fa-weibo"></i></a>
+                      </div>
+                      <!-- sidebar social end -->
+
+                      <div class="trm-divider trm-mb-40 trm-mt-40"></div>
+
+                      <!-- action button -->
+                      <div class="text-center">
+                        <a href="mailto:1298231208@qq.com" class="trm-btn">联系方式<i class="far fa-envelope"></i></a>
+                      </div>
+                      <!-- action button end -->
+
+                    </div>
+                  </div>
+                  <!-- main card end -->
+
+                </div>
+                <div class="col-lg-8">
+
+                  <!-- content -->
+                  <div class="trm-content" id="trm-content">
+
+                    <div data-scroll data-scroll-repeat data-scroll-offset="500" id="about-triger"></div>
+
+
+                    <!-- text -->
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <!-- quote -->
+                        <blockquote class="trm-scroll-animation" data-scroll data-scroll-offset="40" text-align:center>须知少时凌云志，曾许人间第一流
+                        </blockquote>
+                        <!-- quote end -->
+                      </div>
+                    </div>
+                    <!-- text end -->
+
+                    <!-- testimonials -->
+                    <div class="row">
+                      <div class="col-lg-12">
+
+                        <!-- title -->
+                        <h5 class="trm-mb-40 trm-title-with-divider"></h5>
+
+                      </div>
+                      <div class="col-lg-12">
+
+                        <!-- testimonials slider -->
+                        <div class="swiper-container trm-testimonials-slider trm-scroll-animation" data-scroll data-scroll-offset="40">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+
+                              <div class="trm-testimonial-card" data-swiper-parallax data-swiper-parallax-scale=".8" data-swiper-parallax-opacity="0" data-swiper-parallax-duration="800">
+                                <div class="trm-testimonial-author">
+                                  <img src="img/testimonials/1.jpg" alt="Client">
+                                  <h6 class="trm-mb-15">薛景盘</h6>
+                                  <div class="trm-text-sm trm-accent-color"><i>Software Developer</i></div>
+                                </div>
+                                <div class="trm-testimonial-text">
+                                  <p>热爱编程，对java开发略懂一二。<br>能够从事自己喜欢的工作，我感到非常荣幸。</p>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="swiper-slide">
+
+                              <div class="trm-testimonial-card" data-swiper-parallax data-swiper-parallax-scale=".8" data-swiper-parallax-opacity="0" data-swiper-parallax-duration="800">
+                                <div class="trm-testimonial-author">
+                                  <img src="img/testimonials/2.jpg" alt="Client">
+                                  <h6 class="trm-mb-15">江江</h6>
+                                  <div class="trm-text-sm trm-accent-color"><i>History Buff</i></div>
+                                </div>
+                                <div class="trm-testimonial-text">
+                                  <p>小时候曾经也对历史痴迷，长大后又对编程情有独钟，最后在编程与历史中选择了编程。<br>从此世界上少了一位一流的历史学家，多了一位三流的程序员。</p>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="swiper-slide">
+
+                              <div class="trm-testimonial-card" data-swiper-parallax data-swiper-parallax-scale=".8" data-swiper-parallax-opacity="0" data-swiper-parallax-duration="800">
+                                <div class="trm-testimonial-author">
+                                  <img src="img/testimonials/3.jpg" alt="Client">
+                                  <h6 class="trm-mb-15">James</h6>
+                                  <div class="trm-text-sm trm-accent-color"><i>Dreamer</i></div>
+                                </div>
+                                <div class="trm-testimonial-text">
+                                  <p>须知少时凌云志，曾许人间第一流。</p>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="trm-slider-navigation">
+                            <div class="trm-testimonials-slider-prev trm-btn trm-btn-circle"><i class="fas fa-arrow-left"></i></div>
+                            <div class="trm-testimonials-slider-next trm-btn trm-btn-circle"><i class="fas fa-arrow-right"></i></div>
+                          </div>
+
+                        </div>
+                        <!-- testimonials slider end -->
+                    </div>
+
+                    <div class="trm-divider trm-mb-40"></div>
+
+                    <!-- footer -->
+                    <footer class="trm-scroll-animation" data-scroll data-scroll-offset="50">
+                      <div class="trm-label">&copy; 2021 &nbsp;XueJingpan&nbsp; All Rights Reserved.</div>
+                    </footer>
+                    <!-- footer end -->
+
+                  </div>
+                  <!-- content end -->
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- scroll container end -->
+
+    <!-- mode switcher -->
+    <div class="trm-hidden-switcher">
+      <div class="trm-mode-switcher">
+        <i class="far fa-sun"></i>
+        <input class="tgl tgl-light" id="trm-swich" type="checkbox">
+        <label class="trm-swich" for="trm-swich"></label>
+        <i class="far fa-moon"></i>
+      </div>
+    </div>
+    <!-- mode switcher end -->
+
+  </div>
+  <!-- app wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+  <!-- locomotive scroll js -->
+  <script src="js/plugins/locomotive-scroll.js"></script>
+  <!-- typing js -->
+  <script src="js/plugins/typing.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- trueman js -->
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
