@@ -20,10 +20,10 @@ timezone: Asia/Shanghai
 
 title: xuejingpan # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: xuejingpan' blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  xuejingpan' blog
+  xuejingpan的技术博客
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://xuejingpan.github.io"
