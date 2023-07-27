@@ -10,7 +10,7 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: zh-CN
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
@@ -23,7 +23,7 @@ title: xuejingpan # the main title
 tagline: Stay hungry, stay foolish # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  xuejingpan的技术博客
+  xuejingpan 的个人博客
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://xuejingpan.github.io"
@@ -41,9 +41,9 @@ social:
   email: xuejingpan@xuejingpan.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
     - https://github.com/xuejingpan # change to your github homepage
     # Uncomment below to add more social links
+    # - https://twitter.com/username # change to your twitter homepage
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
