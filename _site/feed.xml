@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/xuejingpan.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-07-27T11:01:52+08:00</updated>
+  <updated>2023-07-27T12:12:49+08:00</updated>
   <author>
-    <name>xuejingpan</name>
-    <uri>http://localhost:4000/xuejingpan.github.io/</uri>
+    <name>your_full_name</name>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/xuejingpan.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/xuejingpan.github.io/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 xuejingpan </rights>
-  <icon>/xuejingpan.github.io/assets/img/favicons/favicon.ico</icon>
-  <logo>/xuejingpan.github.io/assets/img/favicons/favicon-96x96.png</logo>
+  <rights> © 2023 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/xuejingpan.github.io/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
+    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
     <published>2019-08-11T00:34:00+08:00</published>
   
     <updated>2023-07-26T15:57:26+08:00</updated>
   
-    <id>http://localhost:4000/xuejingpan.github.io/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/xuejingpan.github.io/posts/customize-the-favicon/" />
+    <id>http://localhost:4000/posts/customize-the-favicon/</id>
+    <content src="http://localhost:4000/posts/customize-the-favicon/" />
     <author>
       <name>cotes</name>
     </author>
@@ -61,13 +61,13 @@ Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and th
   
   <entry>
     <title>Getting Started</title>
-    <link href="http://localhost:4000/xuejingpan.github.io/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
+    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
     <published>2019-08-09T20:55:00+08:00</published>
   
     <updated>2023-07-26T15:57:26+08:00</updated>
   
-    <id>http://localhost:4000/xuejingpan.github.io/posts/getting-started/</id>
-    <content src="http://localhost:4000/xuejingpan.github.io/posts/getting-started/" />
+    <id>http://localhost:4000/posts/getting-started/</id>
+    <content src="http://localhost:4000/posts/getting-started/" />
     <author>
       <name>cotes</name>
     </author>
@@ -109,13 +109,13 @@ There are two ways to create a new repository for this theme:
   
   <entry>
     <title>Writing a New Post</title>
-    <link href="http://localhost:4000/xuejingpan.github.io/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
+    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
     <published>2019-08-08T14:10:00+08:00</published>
   
     <updated>2023-07-26T15:57:26+08:00</updated>
   
-    <id>http://localhost:4000/xuejingpan.github.io/posts/write-a-new-post/</id>
-    <content src="http://localhost:4000/xuejingpan.github.io/posts/write-a-new-post/" />
+    <id>http://localhost:4000/posts/write-a-new-post/</id>
+    <content src="http://localhost:4000/posts/write-a-new-post/" />
     <author>
       <name>cotes</name>
     </author>
@@ -149,13 +149,13 @@ Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of t
   
   <entry>
     <title>Text and Typography</title>
-    <link href="http://localhost:4000/xuejingpan.github.io/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
+    <link href="http://localhost:4000/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
     <published>2019-08-08T11:33:00+08:00</published>
   
     <updated>2023-07-26T15:57:26+08:00</updated>
   
-    <id>http://localhost:4000/xuejingpan.github.io/posts/text-and-typography/</id>
-    <content src="http://localhost:4000/xuejingpan.github.io/posts/text-and-typography/" />
+    <id>http://localhost:4000/posts/text-and-typography/</id>
+    <content src="http://localhost:4000/posts/text-and-typography/" />
     <author>
       <name>cotes</name>
     </author>
