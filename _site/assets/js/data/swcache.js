@@ -1,41 +1,41 @@
 const resource = [
     /* --- CSS --- */
-    '/assets/css/style.css',
+    '/xuejingpan.github.io/assets/css/style.css',
 
     /* --- PWA --- */
-    '/app.js',
-    '/sw.js',
+    '/xuejingpan.github.io/app.js',
+    '/xuejingpan.github.io/sw.js',
 
     /* --- HTML --- */
-    '/index.html',
-    '/404.html',
+    '/xuejingpan.github.io/index.html',
+    '/xuejingpan.github.io/404.html',
 
     
-        '/categories/',
+        '/xuejingpan.github.io/categories/',
     
-        '/tags/',
+        '/xuejingpan.github.io/tags/',
     
-        '/archives/',
+        '/xuejingpan.github.io/archives/',
     
-        '/about/',
+        '/xuejingpan.github.io/about/',
     
 
     /* --- Favicons & compressed JS --- */
     
     
-        '/assets/img/favicons/android-chrome-192x192.png',
-        '/assets/img/favicons/android-chrome-512x512.png',
-        '/assets/img/favicons/apple-touch-icon.png',
-        '/assets/img/favicons/favicon-16x16.png',
-        '/assets/img/favicons/favicon-32x32.png',
-        '/assets/img/favicons/favicon.ico',
-        '/assets/img/favicons/mstile-150x150.png',
-        '/assets/js/dist/categories.min.js',
-        '/assets/js/dist/commons.min.js',
-        '/assets/js/dist/home.min.js',
-        '/assets/js/dist/misc.min.js',
-        '/assets/js/dist/page.min.js',
-        '/assets/js/dist/post.min.js'
+        '/xuejingpan.github.io/assets/img/favicons/android-chrome-192x192.png',
+        '/xuejingpan.github.io/assets/img/favicons/android-chrome-512x512.png',
+        '/xuejingpan.github.io/assets/img/favicons/apple-touch-icon.png',
+        '/xuejingpan.github.io/assets/img/favicons/favicon-16x16.png',
+        '/xuejingpan.github.io/assets/img/favicons/favicon-32x32.png',
+        '/xuejingpan.github.io/assets/img/favicons/favicon.ico',
+        '/xuejingpan.github.io/assets/img/favicons/mstile-150x150.png',
+        '/xuejingpan.github.io/assets/js/dist/categories.min.js',
+        '/xuejingpan.github.io/assets/js/dist/commons.min.js',
+        '/xuejingpan.github.io/assets/js/dist/home.min.js',
+        '/xuejingpan.github.io/assets/js/dist/misc.min.js',
+        '/xuejingpan.github.io/assets/js/dist/page.min.js',
+        '/xuejingpan.github.io/assets/js/dist/post.min.js'
 ];
 
 /* The request url with below domain will be cached */
