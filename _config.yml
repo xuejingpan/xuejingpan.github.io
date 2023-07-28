@@ -31,16 +31,17 @@ url: "https://xuejingpan.github.io"
 github:
   username: xuejingpan # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: xuejingpan
-  email: xuejingpan@xuejingpan.com # change to your email address
+  email: xuejingpan@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://xuejingpan.github.io
     - https://github.com/xuejingpan # change to your github homepage
     # Uncomment below to add more social links
     # - https://twitter.com/username # change to your twitter homepage
@@ -73,10 +74,12 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+# img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+#avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/favicons/avatar.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
