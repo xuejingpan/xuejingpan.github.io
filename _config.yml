@@ -82,6 +82,13 @@ toc: true
 comments:
   active: 'gitalk' # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
+  gitalk:
+    client_id: 'b41d036f9a5fd49adacd'
+    client_secret: 'f975c212c146e2ea00e1191026d22106caeef107'
+    repo: 'xuejingpan.github.io'
+    owner: 'xuejingpan'
+    admin: ['xuejingpan']
+  # disqus
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
