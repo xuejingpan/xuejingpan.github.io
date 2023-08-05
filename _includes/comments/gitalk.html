@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+    const gitalk = new Gitalk({
+        clientID: 'b41d036f9a5fd49adacd',
+        clientSecret: 'f975c212c146e2ea00e1191026d22106caeef107',
+        repo: 'xuejingpan.github.io',
+        owner: 'xuejingpan',
+        admin: ['xuejingpan'],
+        id: location.pathname,
+        distractionFreeMode: false
+    })
+    gitalk.render('gitalk-container')
+</script>
