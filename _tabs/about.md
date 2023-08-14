@@ -13,7 +13,9 @@ order: 4
 - **技能：**复制、粘贴
 - **负责：**划水、摸鱼、干饭
 
-> # 关于此博客
+> # 关于本站
 
-基于[**Jekyll**](https://jekyllrb.com/) 的 [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy) 主题定制化的个人博客，集成了 [**giscus**](https://giscus.app/) 评论系统，使用 **[Github Pages](https://pages.github.com/)** 进行搭建和托管。
+- 基于 [**Jekyll 框架**](https://jekyllrb.com/) + [**Chirpy 主题**](https://github.com/cotes2020/jekyll-theme-chirpy) 搭建
+- 采用 [**giscus**](https://giscus.app/) 作为评论系统
+- 使用 [**Github Pages**](https://pages.github.com/) 进行托管和发布
 
