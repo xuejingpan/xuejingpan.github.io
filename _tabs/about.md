@@ -16,6 +16,7 @@ order: 4
 > # 关于本站
 
 - 基于 [**Jekyll 框架**](https://jekyllrb.com/) + [**Chirpy 主题**](https://github.com/cotes2020/jekyll-theme-chirpy) 搭建
-- 采用 [**giscus**](https://giscus.app/) 作为评论系统
-- 使用 [**Github Pages**](https://pages.github.com/) 进行托管和发布
+- 使用 [**giscus**](https://giscus.app/) 作为评论系统
+- 使用 [**GitHub Actions**](https://github.com/features/actions) 进行自动化部署
+- 使用 [**Github Pages**](https://pages.github.com/) 进行托管
 
