@@ -1,5 +1,5 @@
 ---
-title: @Scheduled注解各参数详解
+title: Scheduled注解各参数详解
 author: xuejingpan
 date: 2019-08-10 21:59:01 +0800
 categories: [后端, java]
