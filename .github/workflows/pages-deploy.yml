@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - master
     paths-ignore:
       - .gitignore
       - README.md
@@ -41,7 +42,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
+          ruby-version: 3.2
           bundler-cache: true
 
       - name: Build site
@@ -52,8 +53,8 @@ jobs:
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
-            \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+            \-\-disable-external=true \
+            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^http:\/\/zhiqihuang.top/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

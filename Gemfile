@@ -2,15 +2,15 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
+gem "jekyll-theme-chirpy", "~> 7.1"
 
 group :test do
-  gem "html-proofer", "~> 5.0"
+  gem "html-proofer", "~> 4.4"
 end
 
-
-gem 'jekyll-compose', group: [:jekyll_plugins]
-gem 'sequel'
-gem "unidecode"
-gem 'mysql2'
-gem 'htmlentities'
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end

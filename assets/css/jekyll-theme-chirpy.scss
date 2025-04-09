@@ -1,0 +1,95 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* 首页预览 post 标题字体加粗 */
+// #post-list .card-title {
+//   font-weight: bold;
+// }
+
+/* 主页 post 列表加阴影 */
+// #post-list .card {
+//     border-radius: 0.7rem;
+//     box-shadow: var(--language-border-color) 1px 1px 2px 1px;
+// }
+
+// prompt 边框阴影
+blockquote[class^='prompt-']{
+    box-shadow: var(--language-border-color) 1px 1px 2px 1px; /* 借用了代码框的边框颜色变量 */
+}
+
+// 代码框左上角颜色
+// div[class^=language-] .code-header::before{
+//   background-color: #fc625d;
+//   box-shadow: 1.25rem 0 0 #fdbc40, 2.5rem 0 0 #35cd4b;
+// }
+
+
+/* 侧边栏背景图片添加 */
+#sidebar {
+    background-image: url(https://cdn.jsdelivr.net/gh/huanyushi/huanyushi.github.io@main/assets/img/background.jpg); /* <- change background image */
+    background-size: cover; /* <- customize the image size */
+    background-repeat: no-repeat; /* <- no-repeat */
+    background-position: top; /* <- image position */
+}
+
+/* 侧边栏相关文字样式设置 */
+#sidebar .site-title a {
+    color: #ffffff; 
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#sidebar .site-subtitle {
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0,0,0, 0.7);
+}
+#sidebar .sidebar-bottom .mode-toggle, #sidebar a {
+    color: #ffffff;
+}
+#sidebar .sidebar-bottom .btn {
+    color: var(--sidebar-btn-color);
+}
+
+// 让目录不产生折叠效果
+.is-collapsed {
+  max-height: none !important;
+}
+
+
+@import 'colors/colors-light.scss';
+@import 'colors/colors-dark.scss';
+
+html {
+    @media (prefers-color-scheme: light) {
+      &:not([data-mode]),
+      &[data-mode='light'] {
+        @include light-colors;
+      }
+  
+      &[data-mode='dark'] {
+        @include dark-colors;
+      }
+    }
+  
+    @media (prefers-color-scheme: dark) {
+      &:not([data-mode]),
+      &[data-mode='dark'] {
+        @include dark-colors;
+      }
+  
+      &[data-mode='light'] {
+        @include light-colors;
+      }
+    }
+  }
+
+@import "animation.scss";    // 背景动画样式
+@import "colorbox.scss";     // colorbox 样式
+@import "details.scss";      // details 元素样式
+
